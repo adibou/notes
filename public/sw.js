@@ -1,7 +1,6 @@
 var CACHE_NAME = 'notes-v2';
 var urlsToCache = [
-  '/',
-  '/main.js'
+  'main.js'
 ];
 
 self.addEventListener('install', function(event) {
