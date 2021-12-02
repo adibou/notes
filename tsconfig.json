@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "module"          : "commonjs",
+      "target"          : "es6",
+      "jsx"             : "react",
+      "lib"             : [ "es6", "dom" ],
+      "sourceMap"       : true,
+      "moduleResolution": "node",
+      "typeRoots"       : [ "./node_modules/@types" ],
+      "baseUrl"         : ".",
+      "paths": {
+        "@src/*" : [ "src/*" ],
+        "@models/*" : [ "src/models/*" ],
+        "@api/*" : [ "src/api/*" ],
+        "@compo/*" : [ "src/components/*" ],
+        "@style/*" : [ "src/styles/*" ]
+      }
+    },
+    "include": ["**/*"],
+    "exclude": [ "node_modules"]
+  }
+  

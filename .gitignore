@@ -1,0 +1,8 @@
+**/.vs/
+**/obj/
+**/bin/
+**/*.user
+**/packages/
+**/node_modules/
+**/package-lock.json
+**/dist/

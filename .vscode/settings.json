@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        ".gitignore":true,
+        "**/.vs": true,
+        ".gitattribute":true,
+        ".npmrc": true,
+        "tsconfig.json": true,
+        "**/node_modules": true,
+        "**/package-lock.json": true
+    },
+    "workbench.tree.indent": 32,
+    "workbench.tree.renderIndentGuides":"always",
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#00ff00"     
+    },
+    "rest-client.previewOption" : "exchange"
+}
