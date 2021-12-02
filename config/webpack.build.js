@@ -2,7 +2,7 @@ const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
-
+const path = require('path');
 
 const typescriptRule = { 
     test   : /\.(ts|tsx)$/,
@@ -35,4 +35,5 @@ module.exports = {
     resolve  : resolve,
     plugins  : [ htmlPLugin, copyPlugin],
     stats    : 'errors-warnings',
+    output : { path : path.resolve(__dirname, '../docs'),}
 };
